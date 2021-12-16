@@ -1,0 +1,11 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+} 
+@mixin hover {
+  color: #fff;
+  opacity: 0.9;
+  transition: ease
+}
+$weight : 600;
