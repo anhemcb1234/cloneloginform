@@ -1,1 +1,1 @@
-# cloneloginform
+# Clone login form.
