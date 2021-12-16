@@ -1,0 +1,31 @@
+html
+    head 
+        link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.15.4/css/all.css', integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm', crossorigin='anonymous')
+        link(href='./css/app.css' rel='stylesheet')
+        link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+        link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' crossorigin='anonymous')
+    body
+        .wrapper
+            .container-fluid 
+                .row
+                    .column
+                        .title
+                            h1.title__head Sign up
+                            span 
+                            a.title__icon(href='#')
+                                i.fab.fa-google
+                                | Sign up with Google
+                        .of
+                            span.of__line
+                            p of 
+                        .login 
+                            label.login__label(for="login") Full name
+                            input.login__input#login(type="text" placeholder="Eg: Jone Doe")
+                        .login 
+                            label.login__label(for="email") Email
+                            input.login__input#email(type="text" placeholder="Eg: JoneDoe@gmail.com")
+                        .submit
+                            button.submit__login Sign up
+                        .desc
+                            p Already have an account?
+                            a(href='#') Login
